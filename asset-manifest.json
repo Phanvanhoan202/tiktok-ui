@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/tiktok-ui/static/css/main.daa5c5d4.css",
-    "main.js": "/tiktok-ui/static/js/main.9a2faf3a.js",
-    "static/js/787.b7082173.chunk.js": "/tiktok-ui/static/js/787.b7082173.chunk.js",
-    "static/media/video2.mp4": "/tiktok-ui/static/media/video2.0d855350f50fd8aa27f6.mp4",
-    "static/media/video1.mp4": "/tiktok-ui/static/media/video1.62de179cced19e0f6321.mp4",
-    "static/media/avt2.jpg": "/tiktok-ui/static/media/avt2.2b7cfc61bd6b9569711e.jpg",
-    "static/media/sofiapro-semibold.otf": "/tiktok-ui/static/media/sofiapro-semibold.a9a8148f7d5d0db20db8.otf",
-    "static/media/avt1.jpg": "/tiktok-ui/static/media/avt1.845f4246daad1088e982.jpg",
-    "static/media/TikTokFont-Bold.woff2": "/tiktok-ui/static/media/TikTokFont-Bold.145f211a356fce76072d.woff2",
-    "static/media/TikTokFont-Semibold.woff2": "/tiktok-ui/static/media/TikTokFont-Semibold.0a3262809350126554ad.woff2",
-    "static/media/TikTokFont-Regular.woff2": "/tiktok-ui/static/media/TikTokFont-Regular.0ca75da985ad7821cbde.woff2",
-    "static/media/sofiapro-bold.woff": "/tiktok-ui/static/media/sofiapro-bold.086ed00f3060992f2938.woff",
-    "static/media/no-image.png": "/tiktok-ui/static/media/no-image.13c6ef7a342f53d3868d.png",
-    "static/media/logo.svg": "/tiktok-ui/static/media/logo.7164546b104bb21b53860a03458efe02.svg",
-    "index.html": "/tiktok-ui/index.html",
-    "main.daa5c5d4.css.map": "/tiktok-ui/static/css/main.daa5c5d4.css.map",
-    "main.9a2faf3a.js.map": "/tiktok-ui/static/js/main.9a2faf3a.js.map",
-    "787.b7082173.chunk.js.map": "/tiktok-ui/static/js/787.b7082173.chunk.js.map"
+    "main.css": "/react-gh-pages/static/css/main.e415cfce.css",
+    "main.js": "/react-gh-pages/static/js/main.d8e85c50.js",
+    "static/js/787.b7082173.chunk.js": "/react-gh-pages/static/js/787.b7082173.chunk.js",
+    "static/media/video2.mp4": "/react-gh-pages/static/media/video2.0d855350f50fd8aa27f6.mp4",
+    "static/media/video1.mp4": "/react-gh-pages/static/media/video1.62de179cced19e0f6321.mp4",
+    "static/media/avt2.jpg": "/react-gh-pages/static/media/avt2.2b7cfc61bd6b9569711e.jpg",
+    "static/media/sofiapro-semibold.otf": "/react-gh-pages/static/media/sofiapro-semibold.a9a8148f7d5d0db20db8.otf",
+    "static/media/avt1.jpg": "/react-gh-pages/static/media/avt1.845f4246daad1088e982.jpg",
+    "static/media/TikTokFont-Bold.woff2": "/react-gh-pages/static/media/TikTokFont-Bold.145f211a356fce76072d.woff2",
+    "static/media/TikTokFont-Semibold.woff2": "/react-gh-pages/static/media/TikTokFont-Semibold.0a3262809350126554ad.woff2",
+    "static/media/TikTokFont-Regular.woff2": "/react-gh-pages/static/media/TikTokFont-Regular.0ca75da985ad7821cbde.woff2",
+    "static/media/sofiapro-bold.woff": "/react-gh-pages/static/media/sofiapro-bold.086ed00f3060992f2938.woff",
+    "static/media/no-image.png": "/react-gh-pages/static/media/no-image.13c6ef7a342f53d3868d.png",
+    "static/media/logo.svg": "/react-gh-pages/static/media/logo.7164546b104bb21b53860a03458efe02.svg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.e415cfce.css.map": "/react-gh-pages/static/css/main.e415cfce.css.map",
+    "main.d8e85c50.js.map": "/react-gh-pages/static/js/main.d8e85c50.js.map",
+    "787.b7082173.chunk.js.map": "/react-gh-pages/static/js/787.b7082173.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.daa5c5d4.css",
-    "static/js/main.9a2faf3a.js"
+    "static/css/main.e415cfce.css",
+    "static/js/main.d8e85c50.js"
   ]
 }
