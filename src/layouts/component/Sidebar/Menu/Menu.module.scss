@@ -1,0 +1,45 @@
+.menu {
+    margin-bottom: 8px;
+}
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 24px;
+
+    &.active {
+        color: var(--primary);
+
+        .icon {
+            display: none;
+        }
+
+        .icon-active {
+            display: flex;
+        }
+    }
+
+    &:hover {
+        background: rgba(22, 24, 35, 0.03);
+        border-radius: 4px;
+        transition: background ease-in-out 200ms;
+    }
+}
+
+.icon-active,
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.icon-active {
+    display: none;
+}
+
+.title {
+    margin-left: 8px;
+    font-family: 'TikTokFont', Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 700;
+}

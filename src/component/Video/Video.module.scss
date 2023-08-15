@@ -1,0 +1,156 @@
+.container {
+    padding: 20px 0;
+    position: relative;
+    width: 692px;
+    // height: unset;
+    // width: unset;
+    transition-property: margin;
+    transition-duration: 0.3s;
+    scroll-snap-align: start;
+
+    &::after {
+        content: '';
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+        height: 1px;
+        transform: scaleY(0.5);
+        background: rgba(22, 24, 35, 0.2);
+    }
+}
+
+.info-wrapper {
+    display: flex;
+}
+
+.avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.info {
+    margin-left: 12px;
+    flex: 1;
+}
+
+.nickname-wrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    flex: 1;
+}
+
+.nickname {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 24px;
+    letter-spacing: -0.028px;
+    display: inline-block;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.icon-check {
+    font-size: 1.4rem;
+    color: #20d5ec;
+    margin: 0 4px;
+}
+
+.name {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 18px;
+    letter-spacing: 0.093px;
+    display: inline-block;
+    line-height: 28px;
+}
+.custom-button {
+    margin-left: 12px;
+    height: 36px;
+}
+
+.caption {
+    font-weight: 400;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Số dòng bạn muốn giới hạn */
+    -webkit-box-orient: vertical;
+    visibility: visible; /* Tránh bug không giới hạn số dòng được do trình duyệt */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-right: 25px;
+}
+
+.music {
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.icon-music {
+    font-size: 1.2rem;
+}
+
+.song-name {
+    font-size: 1.4rem;
+    margin-left: 8px;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+// video
+.wrapper-video {
+    display: flex;
+    margin-top: 12px;
+    margin-left: 68px;
+}
+.video {
+    width: 310px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+// actions
+.actions {
+    margin-left: 20px;
+    align-self: flex-end;
+    cursor: pointer;
+}
+.item-action {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.icon-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: rgba(22, 24, 35, 0.06);
+    font-size: 2rem;
+}
+.total {
+    font-size: 1.4rem;
+    color: rgba(22, 24, 35, 0.75);
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.161px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 4px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        width: 580px;
+    }
+    .video {
+        width: 285px;
+    }
+}

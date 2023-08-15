@@ -1,0 +1,87 @@
+.custom-popper {
+    width: 92%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 12px;
+}
+
+.wrapper {
+    border-top: 1px solid #1618231f;
+    padding: 16px 0;
+    cursor: pointer;
+    width: 100%;
+}
+
+// preview
+.wrapper-preview {
+    width: 240px;
+}
+
+.wrapper-item {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+}
+
+.label {
+    color: rgba(22, 24, 35, 0.75);
+    padding: 0 8px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 18px;
+    letter-spacing: 0.093px;
+}
+
+.item-info {
+    flex: 1;
+    max-width: 200px;
+    overflow: hidden;
+}
+.avatar {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    margin-right: 12px;
+}
+.nickname-wrapper {
+    display: flex;
+    max-width: 200px;
+    align-items: center;
+}
+
+.nickname {
+    font-size: 1.6rem;
+    line-height: 21px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+    font-weight: 700;
+}
+.name {
+    font-size: 1.2rem;
+    color: rgba(22, 24, 35, 0.75);
+    font-weight: 400;
+    line-height: 15px;
+    max-width: 145px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    letter-spacing: 0.161px;
+}
+.icon-check {
+    font-size: 1.4rem;
+    color: #20d5ec;
+    margin-left: 4px;
+}
+
+.show-more {
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 18px;
+    letter-spacing: 0.093px;
+    margin-top: 8px;
+    cursor: pointer;
+    padding: 0px 8px;
+}
