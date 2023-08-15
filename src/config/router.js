@@ -1,5 +1,5 @@
 const router = {
-    home: '/',
+    home: '/tiktok-ui',
     following: '/following',
     profile: '/@:nickname',
     upload: '/upload',
