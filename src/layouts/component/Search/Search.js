@@ -27,21 +27,29 @@ function Search() {
             return;
         }
         setLoading(true);
-
-        axios
-            .get(`https://tiktok.fullstack.edu.vn/api/users/search`, {
-                params: {
-                    q: debounceValue,
-                    type: 'less',
-                },
-            })
+         fetch(`https://tiktok.fullstack.edu.vn/api/users/search?q=${encodeURIComponent(debounceValue)}&type=less`)
+            .then((res) => res.json())
             .then((res) => {
-                SetSearchResult(res.data.data);
+                SetSearchResult(res.data);
                 setLoading(false);
             })
-            .catch(() => {
-                setLoading(false);
+            .catch((error) => {
+                console.log(error);
             });
+        // axios
+        //     .get(`https://tiktok.fullstack.edu.vn/api/users/search`, {
+        //         params: {
+        //             q: debounceValue,
+        //             type: 'less',
+        //         },
+        //     })
+        //     .then((res) => {
+        //         SetSearchResult(res.data.data);
+        //         setLoading(false);
+        //     })
+        //     .catch(() => {
+        //         setLoading(false);
+        //     });
         // request API
         // const fetchApi = async () => {
         //     const res = await searchService.search(debounceValue);
