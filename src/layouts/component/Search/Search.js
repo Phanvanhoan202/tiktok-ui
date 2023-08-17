@@ -27,15 +27,7 @@ function Search() {
             return;
         }
         setLoading(true);
-         fetch(`https://tiktok.fullstack.edu.vn/api/users/search?q=${encodeURIComponent(debounceValue)}&type=less`)
-            .then((res) => res.json())
-            .then((res) => {
-                SetSearchResult(res.data);
-                setLoading(false);
-            })
-            .catch((error) => {
-                console.log(error);
-            });
+         
         // axios
         //     .get(`https://tiktok.fullstack.edu.vn/api/users/search`, {
         //         params: {
